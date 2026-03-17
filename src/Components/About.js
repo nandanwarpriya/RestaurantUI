@@ -5,7 +5,7 @@ import { BsFillPlayCircleFill } from 'react-icons/bs';
 
 const About = () => {
     return (
-        <div className="about-section-container">
+        <div className="about-section-container" id="about">
             <h1 className="primary-subheading">About</h1>
             <div className="about-background-image-container">
                 <img src={AboutBackground} alt="" />
